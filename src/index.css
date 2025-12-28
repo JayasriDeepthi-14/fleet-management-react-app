@@ -1,0 +1,25 @@
+body { margin:0; font-family:Arial; }
+.login-container {
+  display:flex; flex-direction:column; gap:10px; width:300px;
+  margin:100px auto; padding:20px; border:1px solid #ccc;
+}
+
+.navbar { background:black; color:white; padding:10px; font-size:20px; }
+
+.admin-container { display:flex; flex-direction:column; }
+.admin-body { display:flex; }
+
+.sidebar {
+  width:250px; border-right:1px solid #ccc; padding:10px;
+}
+
+.fleet-grid {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  padding:10px;
+}
+
+.fleet-card {
+  width:250px; border:1px solid gray; padding:10px; text-align:center;
+}
